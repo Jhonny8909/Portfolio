@@ -87,6 +87,11 @@ p{
   animation-timing-function: steps(2, end);
 }
 
+.button-49 a{
+  color: white;
+  text-decoration: none;
+}
+
 @keyframes glitch {
   0% {
     clip-path: var(--slice-1);
@@ -232,7 +237,10 @@ p{
     margin-right: 240px;
 }
 
-
+a{
+  background-color: none;
+  color:white;
+}
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 800px) {
